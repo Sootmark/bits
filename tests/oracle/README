@@ -1,0 +1,9 @@
+Expected values: what FireEye's BitsParser reads from the fixtures with
+carving on (--carvedb), one TSV per fixture. gen.sh writes them; see its
+header for the versions run, and bitsparser_tsv.py for the columns.
+
+BitsParser prints each distinct record once (live jobs, carved jobs, and,
+for qmgr.db, file records it couldn't tie to a job). tests/oracle.rs finds
+each of them among this crate's jobs and files, field by field (the fields
+BitsParser leaves empty are not compared), and counts what this crate reads
+beyond them.

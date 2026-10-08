@@ -1,0 +1,19 @@
+qmgr0.dat.gz and qmgr1.dat.gz are the BITS queue files of NIST's CFReDS
+"Data Leakage Case" Windows 7 image, gzip-compressed (gzip -9 -n):
+
+  https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html
+  image:   cfreds_2015_data_leakage_pc.E01 to .E04
+           (E01 SHA-1 72432916933f5a309a8c456b40c9601d1f8d2a4f, as NIST lists it)
+  files:   ProgramData/Microsoft/Network/Downloader/qmgr0.dat (MFT entry 15553)
+           ProgramData/Microsoft/Network/Downloader/qmgr1.dat (MFT entry 15554)
+           of the NTFS volume at sector 206848, extracted with The Sleuth
+           Kit's icat
+  SHA-256: c078c4e6eca7947b84fc136b89ee0bc30fdf0415b004646024433c83433e9d5a  qmgr0.dat
+           197c0c1446b4993488054b32b21e05a2544a1d4f02505f7f2af91fba0010509b  qmgr1.dat
+           (uncompressed, 4,194,304 bytes each)
+  licence: a work of NIST, a US Government agency, not subject to copyright
+           in the United States (17 U.S.C. 105). The case is simulated; its
+           names are fictional.
+
+qmgr1.dat lists one job; qmgr0.dat lists none. Both hold older jobs in
+their free space.

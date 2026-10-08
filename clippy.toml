@@ -1,0 +1,2 @@
+# Domain vocabulary that is prose, not code.
+doc-valid-idents = ["..", "BITS", "BitsParser", "FILETIME", "ESE", "NotifyCmdLine", "SID", "GUID"]

@@ -1,0 +1,11 @@
+qmgr.db.gz is qmgr.db from Velocidex's go-ese, gzip-compressed (gzip -9 -n):
+
+  https://github.com/Velocidex/go-ese
+  file:    testdata/Samples/qmgr.db (added in 5af66dc0f6ed0ab9e88c9313bf48843649c2d1fb)
+  commit:  458e8abf4a573561bb6a31389a9d3a41ea0db68d
+  licence: Apache License 2.0 (LICENSE, copied from the repository)
+  SHA-256: a1079dd971db1b0d774a2520d4e566e158286df4c1bd84deab8513ddaa379149 (uncompressed)
+
+A BITS queue of Windows 11 24H2 (build 26100, ESE format revision 300,
+16 KiB pages), left dirty: one job in the Jobs table, one file in the Files
+table, and the remains of about fifty earlier jobs in free pages.
